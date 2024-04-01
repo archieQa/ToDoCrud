@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const todoRoutes = require("./routes/todoRoutes");
 
 const uri =
-  "mongodb+srv://Luars:Luars@todocluster.e9bpcio.mongodb.net/?retryWrites=true&w=majority&appName=TodoCluster";
+  "mongodb+srv://<name>:<password>@todocluster.e9bpcio.mongodb.net/?retryWrites=true&w=majority&appName=TodoCluster";
 
 const app = express();
 
